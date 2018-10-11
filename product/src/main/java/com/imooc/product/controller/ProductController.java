@@ -1,5 +1,10 @@
 package com.imooc.product.controller;
 
+import com.imooc.product.service.ProductService;
+
+import java.util.List;
+import java.util.stream.Collectors;
+
 /**
  * Created by Administrator on 2018/10/11.
  */
