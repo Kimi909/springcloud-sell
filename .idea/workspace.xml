@@ -2,39 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8df1bbb8-3487-4e19-bd6e-b18d3d82d92a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product/src/main/java/com/imooc/product/VO/ProductInfoVO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product/src/main/java/com/imooc/product/VO/ProductVO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product/src/main/java/com/imooc/product/VO/ResultVO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product/src/main/java/com/imooc/product/dataobject/ProductCategory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product/src/main/java/com/imooc/product/dataobject/ProductInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product/src/main/java/com/imooc/product/repository/ProductCategoryRepository.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product/src/main/java/com/imooc/product/repository/ProductInfoRepository.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product/src/main/java/com/imooc/product/service/CategoryService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product/src/main/java/com/imooc/product/service/ProductService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product/src/main/java/com/imooc/product/service/impl/CategoryServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product/src/main/java/com/imooc/product/service/impl/ProductServiceImpl.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api-gateway/target/classes/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api-gateway/target/classes/META-INF/maven/com.kbp.www/api-gateway/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api-gateway/target/classes/META-INF/maven/com.kbp.www/api-gateway/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/classes/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/classes/META-INF/maven/com.kbp.www/client/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/target/classes/META-INF/maven/com.kbp.www/client/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config-repo/target/classes/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config-repo/target/classes/META-INF/maven/com.kbp.www/config-repo/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config-repo/target/classes/META-INF/maven/com.kbp.www/config-repo/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/target/classes/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/target/classes/META-INF/maven/com.kbp.www/config/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/target/classes/META-INF/maven/com.kbp.www/config/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/eureka/target/classes/com/imooc/eureka/EurekaApplication.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/order/target/classes/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/order/target/classes/META-INF/maven/com.kbp.www/order/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/order/target/classes/META-INF/maven/com.kbp.www/order/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/product/target/classes/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/product/target/classes/META-INF/maven/com.kbp.www/product/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/product/target/classes/META-INF/maven/com.kbp.www/product/pom.xml" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product/src/main/java/com/imooc/product/enums/ProductStatusEnum.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product/src/main/java/com/imooc/product/enums/ResultEnum.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product/src/main/java/com/imooc/product/exception/ProductException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product/src/main/java/com/imooc/product/utils/JsonUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product/src/main/java/com/imooc/product/utils/ResultVOUtil.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product/pom.xml" afterPath="$PROJECT_DIR$/product/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product/src/main/java/com/imooc/product/controller/ProductController.java" afterPath="$PROJECT_DIR$/product/src/main/java/com/imooc/product/controller/ProductController.java" />
     </list>
     <ignored path="$PROJECT_DIR$/config-repo/target/" />
     <ignored path="$PROJECT_DIR$/client/target/" />
@@ -54,18 +27,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ProductController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/product/src/main/java/com/imooc/product/controller/ProductController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-94">
-              <caret line="18" column="27" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ResultVO.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/product/src/main/java/com/imooc/product/VO/ResultVO.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -98,7 +59,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProductServiceImpl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ProductServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/product/src/main/java/com/imooc/product/service/impl/ProductServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
@@ -110,23 +71,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProductService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/product/src/main/java/com/imooc/product/service/ProductService.java">
+      <file leaf-file-name="ResultEnum.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/product/src/main/java/com/imooc/product/enums/ResultEnum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="6" lean-forward="false" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="408">
+              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProductInfoRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/product/src/main/java/com/imooc/product/repository/ProductInfoRepository.java">
+      <file leaf-file-name="JsonUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/product/src/main/java/com/imooc/product/utils/JsonUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/product/src/main/java/com/imooc/product/exception/ProductException.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="11" column="52" lean-forward="true" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -142,21 +111,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProductInfo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/product/src/main/java/com/imooc/product/dataobject/ProductInfo.java">
+      <file leaf-file-name="ProductInfoRepository.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/product/src/main/java/com/imooc/product/repository/ProductInfoRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="18" column="7" lean-forward="false" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+            <state relative-caret-position="136">
+              <caret line="11" column="52" lean-forward="true" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProductCategory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/product/src/main/java/com/imooc/product/dataobject/ProductCategory.java">
+      <file leaf-file-name="ProductStatusEnum.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/product/src/main/java/com/imooc/product/enums/ProductStatusEnum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="170">
+              <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -375,45 +344,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springcloud-sell" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springcloud-sell" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="product" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="product" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="impl" />
+              <option name="myItemId" value="utils" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -501,6 +432,7 @@
       <recent name="com.imooc.product.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\e-develop\springcloud-sell\springcloud-sell\product\src\main\java\com\imooc\product" />
       <recent name="F:\e-develop\springcloud-sell\springcloud-sell\product\src\main\java\com\imooc\product\repository" />
       <recent name="F:\e-develop\springcloud-sell\springcloud-sell\product\src\main\java\com\imooc\product\VO" />
       <recent name="F:\e-develop\springcloud-sell\springcloud-sell\product\src\main\java\com\imooc\product\dataobject" />
@@ -939,7 +871,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1539220373561</updated>
-      <workItem from="1539220376210" duration="7017000" />
+      <workItem from="1539220376210" duration="7140000" />
     </task>
     <task id="LOCAL-00001" summary="1st">
       <created>1539226819738</created>
@@ -948,11 +880,18 @@
       <option name="project" value="LOCAL" />
       <updated>1539226819738</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2st">
+      <created>1539227906349</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1539227906349</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7017000" />
+    <option name="totallyTimeSpent" value="7140000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -1003,7 +942,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1st" />
-    <option name="LAST_COMMIT_MESSAGE" value="1st" />
+    <MESSAGE value="2st" />
+    <option name="LAST_COMMIT_MESSAGE" value="2st" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1132,22 +1072,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/product/src/main/java/com/imooc/product/repository/ProductCategoryRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product/src/main/java/com/imooc/product/repository/ProductInfoRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="52" lean-forward="true" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/product/src/main/java/com/imooc/product/service/ProductService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -1191,6 +1115,54 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/src/main/java/com/imooc/product/enums/ProductStatusEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/src/main/java/com/imooc/product/enums/ResultEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/src/main/java/com/imooc/product/utils/JsonUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/src/main/java/com/imooc/product/exception/ProductException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/src/main/java/com/imooc/product/repository/ProductCategoryRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/src/main/java/com/imooc/product/repository/ProductInfoRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="52" lean-forward="true" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+          <folding />
         </state>
       </provider>
     </entry>
